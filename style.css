@@ -1,0 +1,74 @@
+.f-right {
+    float: right;
+}
+
+.f-left {
+    float: left;
+}
+
+.header {
+    height: 70px;
+    background-color: maroon;
+}
+
+.header h2 {
+    color:white;
+}
+
+.header p {
+    font-size: 20px;
+    color:white;
+}
+
+.menu {
+    background-color: lightseagreen;
+    top: 80px;
+    border-radius: 10px;
+}
+
+.menu a {
+    color: white;
+    font-weight: bold;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.menu a:hover {
+    color: rgb(255, 238, 0);
+}
+
+.content {
+    top: 100px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content h2 {
+    font-weight: bold;
+    color: maroon;
+    text-align: center;
+    padding: 20px;
+}
+
+.content p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content span {
+    font-size: 14px;
+}
+
+.img-responsive {
+    max-width: 60%;
+    height: auto;
+    margin: 25px;
+}
+
+.footer {
+    top: 120px;
+    background-color: gray;
+    text-align: center;
+}
